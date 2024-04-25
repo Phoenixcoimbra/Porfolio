@@ -1,0 +1,66 @@
+/* Vibrant Modern Color System */
+:root {
+  --primary-color: #FF6B6B;
+  --secondary-color: #77DD77;
+  --accent-color: #FFD700;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+}
+
+/* Showcase of CSS Techniques */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Card Styles */
+.project-card {
+    margin: 20px;
+  }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border: 1px solid var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
