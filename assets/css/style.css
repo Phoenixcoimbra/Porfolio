@@ -33,6 +33,13 @@ body {
 /* Card Styles */
 .project-card {
     margin: 20px;
+    size: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    height: auto;
   }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
